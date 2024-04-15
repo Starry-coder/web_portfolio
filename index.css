@@ -1,0 +1,431 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  overflow: hidden;
+  overflow: scroll;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1520px;
+  height: 2865px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.navbar {
+  position: relative;
+  width: 1536px;
+  height: 92px;
+  margin: 0 0 0 0;
+  background: #3e3e3e;
+  z-index: 5;
+}
+.logo {
+  position: absolute;
+  width: 281.5px;
+  height: 63.316px;
+  top: 18.5px;
+  left: 149.5px;
+  background: url(./assets/images/logo.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 38px;
+  top: 25px;
+  left: 1241px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -1.2px;
+  background: linear-gradient(90deg, #fdd035, #5fbedc);
+  z-index: 9;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 38px;
+  top: 25px;
+  left: 947px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -1.2px;
+  background: linear-gradient(90deg, #fdd035, #5fbedc);
+  z-index: 7;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 38px;
+  top: 25px;
+  left: 803px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -1.2px;
+  background: linear-gradient(90deg, #fdd035, #5fbedc);
+  z-index: 6;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 38px;
+  top: 25px;
+  left: 1117px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -1.2px;
+  background: linear-gradient(90deg, #fdd035, #5fbedc);
+  z-index: 8;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rectangle {
+  position: relative;
+  width: 1235px;
+  height: 645px;
+  margin: 1341px 0 0 147px;
+  font-size: 0px;
+  background: #f7f6f6;
+  z-index: 19;
+  overflow: visible auto;
+  border-radius: 25px;
+}
+.projects-worked-on {
+  display: block;
+  position: relative;
+  height: 96px;
+  margin: 32px 0 0 70px;
+  color: #00477c;
+  font-family: New Tegomin, var(--default-font-family);
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 83.2px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.about-content {
+  position: relative;
+  width: 1066px;
+  height: 427px;
+  margin: 39px 0 0 70px;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 43.4px;
+  text-align: left;
+  letter-spacing: 4.760000000000001px;
+  z-index: 21;
+}
+.portfolio-website {
+  position: relative;
+  color: #00477c;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 43.4px;
+  text-align: left;
+  letter-spacing: 4.760000000000001px;
+}
+.works-listed-below {
+  position: relative;
+  color: #00477c;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 65.8px;
+  text-align: left;
+  letter-spacing: 4.760000000000001px;
+}
+.portfolio-website-1 {
+  position: relative;
+  color: #00477c;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 43.4px;
+  text-align: left;
+  letter-spacing: 4.760000000000001px;
+}
+.laser-tag-website {
+  position: relative;
+  color: #00477c;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 54.04px;
+  text-align: left;
+  letter-spacing: 4.760000000000001px;
+}
+.rectangle-2 {
+  position: relative;
+  width: 1235px;
+  height: 378px;
+  margin: 64px 0 0 149px;
+  font-size: 0px;
+  background: #f7f6f6;
+  z-index: 23;
+  overflow: visible auto;
+  border-radius: 25px;
+}
+.skills-3 {
+  display: block;
+  position: relative;
+  height: 96px;
+  margin: 14px 0 0 72px;
+  color: #00477c;
+  font-family: New Tegomin, var(--default-font-family);
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 83.2px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 24;
+}
+.about-content-4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1046px;
+  height: 215px;
+  margin: 10px 0 0 72px;
+  color: #00477c;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 43.4px;
+  text-align: left;
+  letter-spacing: 4.760000000000001px;
+  z-index: 25;
+}
+.rectangle-5 {
+  position: relative;
+  width: 1536px;
+  height: 263px;
+  margin: 82px 0 0 0;
+  font-size: 0px;
+  background: #3e3e3e;
+  z-index: 27;
+  overflow: visible auto;
+}
+.contact-me {
+  display: block;
+  position: relative;
+  height: 35px;
+  margin: 15px 0 0 679px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.865px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -1.2px;
+  background: linear-gradient(90deg, #5fbedc, #fdd035);
+  z-index: 29;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 661px;
+  height: 180px;
+  margin: 19px 0 0 434px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45.3px;
+  text-align: left;
+  letter-spacing: -1.2px;
+  background: linear-gradient(90deg, #5fbedc, #fdd035);
+  z-index: 28;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.vector {
+  position: absolute;
+  width: 3210px;
+  height: 3645.773px;
+  top: -157px;
+  left: -761px;
+  background: url(./assets/images/4fab0df2-69ea-4f32-a5aa-4cad8012ef9f.png)
+    no-repeat center;
+  background-size: cover;
+}
+.photo-frame {
+  position: absolute;
+  width: 434px;
+  height: 635px;
+  top: 153px;
+  left: 189px;
+  background: url(./assets/images/mypic.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.graphics-designer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 142px;
+  top: 382px;
+  left: 550px;
+  color: #000000;
+  font-family: Pangolin, var(--default-font-family);
+  font-size: 111px;
+  font-weight: 400;
+  line-height: 142px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.aryan-kumar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 83px;
+  top: 513px;
+  left: 788px;
+  color: #000000;
+  font-family: Pompiere, var(--default-font-family);
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 83px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 25.35px;
+  z-index: 2;
+}
+.divider {
+  position: absolute;
+  width: 1686.994px;
+  height: 6.861px;
+  top: 900.581px;
+  left: -1.389px;
+  background: url(./assets/images/28a42a70-c523-41a7-a8d8-68d1ea3edc21.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.doodle {
+  position: absolute;
+  width: 237.574px;
+  height: 225.858px;
+  top: 1001.604px;
+  left: 1141.479px;
+  background: url(./assets/images/7a94e6f6-690e-4046-bd72-4c8c4c64c9f0.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.rectangle-6 {
+  position: relative;
+  width: 66.302px;
+  height: 72px;
+  margin: 4.396px 0 0 163.782px;
+  background: #f7f6f6;
+  z-index: 17;
+  border-radius: 25px;
+}
+.rectangle-7 {
+  position: absolute;
+  width: 1236px;
+  height: 363px;
+  top: 1006px;
+  left: 150px;
+  font-size: 0px;
+  background: #f6f5f5;
+  z-index: 13;
+  border-radius: 25px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.welcome-portfolio {
+  display: block;
+  position: relative;
+  height: 96px;
+  margin: 10px 0 0 74px;
+  color: #00477c;
+  font-family: New Tegomin, var(--default-font-family);
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 83.2px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.about-content-8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1046px;
+  height: 178px;
+  margin: 5px 0 0 77px;
+  color: #00477c;
+  font-family: Indie Flower, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 43.4px;
+  text-align: left;
+  letter-spacing: 4.760000000000001px;
+  z-index: 15;
+}
